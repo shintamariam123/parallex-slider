@@ -1,0 +1,132 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Playfair Display", times, serif;
+overflow-y: scroll;
+overflow-x: hidden;
+  /* font-family: 'Solway', cursive; */
+  
+
+}
+.links li{
+  list-style: none;
+}
+.links a{
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 20px;
+  color: white;
+  
+}
+.links a:hover{
+  color: #ea0b32;
+}
+.background{
+  background: url(https://themewagon.github.io/sogo/images/hero_4.jpg);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Playfair Display", times, serif;
+  position: relative;
+
+}
+.content{
+position: absolute;
+top: 300px;
+font-size: 50px;
+color: white;
+
+
+
+}
+
+.nav{
+  /* background-image: linear-gradient(to right,#3f3f3f,rgba(0, 0, 0, 0)); */
+}
+
+
+.box input{
+  width:200px;
+  height: 57px;
+  margin-left: 20px;
+
+}
+.box .float{
+  margin-left: 20px;
+
+}
+.box p{
+  margin-left: 20px;
+  font-weight: 600;
+  color: black;
+
+}
+.img{
+  background: url(https://themewagon.github.io/sogo/images/img_1.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+.rooms img{
+  transition: .3s all ease-in-out;
+  /* transition: transform .2s; */
+  
+}
+.rooms img:hover{
+  transform: scale(1.1);
+}
+.img1{
+  padding-left: 120px;
+  padding-right: 108px;
+}
+.img2{
+  padding-left: 100px;
+  padding-right: 60px;
+  margin-bottom: 35px;
+}
+.img3{
+  padding-left: 70px;
+  padding-right: 120px;
+}
+.foot{
+  width:100%;
+height: 300px;
+  background: url(https://themewagon.github.io/sogo/images/hero_4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 1;
+}
+.text button{
+  background-color: rgba(0, 0, 0, 0);
+}
+.text button:hover{
+background-color: #ea0b32 !important;
+}
+.footer a{
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  line-height: 2;
+  font-family: "Roboto", arial, sans-serif;
+}
+.footer p{
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer i{
+color: #ea0b32;
+}
+.cardds h2{
+  color: #000;
+  font-size: 26px;
+}
+.cardds p{
+  color: #6c757d;
+  font-size: 16px;
+}
